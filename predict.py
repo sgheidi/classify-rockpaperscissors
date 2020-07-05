@@ -7,7 +7,7 @@ from keras_preprocessing import image
 from keras.utils import CustomObjectScope
 from keras.initializers import glorot_uniform
 
-pic = r"test.png"
+pic = r"data/test/rock/testrock02-00.png"
 
 with CustomObjectScope({'GlorotUniform': glorot_uniform()}):
   model = load_model(
@@ -15,7 +15,6 @@ with CustomObjectScope({'GlorotUniform': glorot_uniform()}):
     custom_objects=None,
     compile=False
 )
-
 
 img = image.load_img(pic, target_size=(150, 150))
 x = image.img_to_array(img)
@@ -27,7 +26,6 @@ classes = model.predict(images, batch_size=10)
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 img = mpimg.imread(pic)
-
 
 if classes[0][0]:
   plt.title("Paper")
