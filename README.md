@@ -3,7 +3,7 @@ Classifying images using Tensorflow.
 Notebook for training the model can be found on [Colab](https://colab.research.google.com/drive/1y3ZdClgzxrSBhtpums3kRaEggSK-QIUt?usp=sharing).
 
 ## Screenshots
-![Alt text](screenshots/1r.png?raw=true "Screenshot 1")
+![Alt text](screenshots/1r.png?raw=true "Screenshot 1") &nbsp; &nbsp; ![Alt text](screenshots/2r.png?raw=true "Screenshot 2")
 
 ## Running
 First, run ```pip install -r requirements.txt```.
