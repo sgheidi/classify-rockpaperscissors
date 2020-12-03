@@ -7,4 +7,4 @@ Notebook for training the model can be found on [Colab](https://colab.research.g
 
 ## Running
 First, run ```pip install -r requirements.txt```.
-Then, load in an image to ```predict.py``` and it will predict whether it is a rock, paper or scissor.
+Then, load in an image to ```predict.py``` and the trained model will predict whether it is a rock, paper or scissor.
